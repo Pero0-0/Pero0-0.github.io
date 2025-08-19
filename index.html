@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pierre Mounir | Data Analytics Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Animated Background -->
+  <div id="particles-js"></div>
+
+  <!-- Header / Navbar -->
+  <header>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero" data-aos="fade-up">
+    <div class="hero-content">
+      <div class="profile-wrapper">
+        <img src="Personal_Photo.jpg" alt="Pierre Mounir" class="profile-pic">
+      </div>
+      <h1>Hello, I'm Pierre 👋</h1>
+      <p>A Business Information Systems student learning Data Analytics (SQL, Excel) and preparing to master Tableau and Python soon.</p>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about" data-aos="fade-right">
+    <div class="about-card">
+      <h2>About Me</h2>
+      <p>I’m currently taking the DEPI course in Data Analytics and have a strong passion for AI and technology. I've led over 6 team projects and participated in the GDSC logistics team, the CIB Summer Program, and an NBE internship.</p>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" data-aos="fade-up">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card" data-title="SQL Analysis" data-desc="Exploring data using advanced SQL queries and insights." data-img="Screenshot1.png">
+        <img src="Screenshot1.png" alt="SQL Analysis Project">
+        <h3>SQL Analysis</h3>
+      </div>
+
+      <div class="project-card" data-title="Excel Dashboard" data-desc="Interactive Excel reports for data-driven decision making." data-img="Screenshot2.png">
+        <img src="Screenshot2.png" alt="Excel Dashboard">
+        <h3>Excel Dashboard</h3>
+      </div>
+
+      <div class="project-card" data-title="Tableau Visualization" data-desc="(Coming soon) Data storytelling with Tableau dashboards." data-img="Screenshot3.png">
+        <img src="Screenshot3.png" alt="Tableau Visualization">
+        <h3>Tableau Visualization</h3>
+      </div>
+
+      <div class="project-card"
+           data-title="Canva Presentations"
+           data-desc="Designed professional Canva presentations for projects and storytelling."
+           data-gallery='["Freelancers.png","Apple.png","Turkish.png"]'>
+        <img src="Freelancers.png" alt="Canva Presentation">
+        <h3>Canva Presentations</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fullscreen Project Preview -->
+  <div class="project-preview" id="projectPreview" aria-hidden="true">
+    <div class="preview-content">
+      <button class="nav-btn prev" id="prevSlide">&#10094;</button>
+      <button class="nav-btn next" id="nextSlide">&#10095;</button>
+      <span class="close-btn" id="closePreview">&times;</span>
+      <div class="slider">
+        <div class="slider-wrapper" id="sliderWrapper"></div>
+      </div>
+      <h3 id="previewTitle"></h3>
+      <p id="previewDesc"></p>
+    </div>
+  </div>
+
+  <!-- Resume -->
+  <section id="resume" data-aos="zoom-in">
+    <h2>Resume</h2>
+    <div class="resume-card">
+      <img src="CV_preview.png" alt="CV Preview" class="resume-preview">
+      <p>Check out my full experience, education, and skills in detail.</p>
+      <a href="Pierre_Mounir_CV.pdf" download class="resume-btn">📄 Download My CV</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" data-aos="fade-up">
+    <div class="contact-card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:pierremounir2@gmail.com">pierremounir2@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/Pero0-0" target="_blank">@Pero0-0</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/pierre-mounir/" target="_blank">Pierre Mounir</a></p>
+      <p>Feel free to reach out for collaborations or inquiries!</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Pierre Mounir</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
